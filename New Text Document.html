@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Squad</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
+    min-height:100vh;
+    color:white;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.header h1{
+    font-size:55px;
+    color:#FFD700;
+    text-transform:uppercase;
+}
+
+.header p{
+    color:#ddd;
+    margin-top:10px;
+}
+
+.players{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.15);
+    backdrop-filter:blur(12px);
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(255,215,0,.35);
+}
+
+.number{
+    width:55px;
+    height:55px;
+    margin:auto;
+    border-radius:50%;
+    background:#FFD700;
+    color:black;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.name{
+    font-size:20px;
+    font-weight:600;
+}
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="header">
+<h1>BATCH 27 SCIENCE A</h1>
+<p>Official Squad List</p>
+</div>
+
+<div class="players">
+
+<div class="card"><div class="number">1</div><div class="name">A</div></div>
+<div class="card"><div class="number">2</div><div class="name">B</div></div>
+<div class="card"><div class="number">3</div><div class="name">C</div></div>
+<div class="card"><div class="number">4</div><div class="name">D</div></div>
+
+<div class="card"><div class="number">5</div><div class="name">E</div></div>
+<div class="card"><div class="number">6</div><div class="name">F</div></div>
+<div class="card"><div class="number">7</div><div class="name">G</div></div>
+<div class="card"><div class="number">8</div><div class="name">H</div></div>
+
+<div class="card"><div class="number">9</div><div class="name">I</div></div>
+<div class="card"><div class="number">10</div><div class="name">J</div></div>
+<div class="card"><div class="number">11</div><div class="name">K</div></div>
+<div class="card"><div class="number">12</div><div class="name">L</div></div>
+
+<div class="card"><div class="number">13</div><div class="name">M</div></div>
+<div class="card"><div class="number">14</div><div class="name">N</div></div>
+<div class="card"><div class="number">15</div><div class="name">O</div></div>
+<div class="card"><div class="number">16</div><div class="name">P</div></div>
+
+</div>
+
+<footer>
+© 2026 | Alim Science A Football Squad
+</footer>
+
+</div>
+
+</body>
+</html>
